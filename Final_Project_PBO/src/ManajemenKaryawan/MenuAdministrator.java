@@ -45,6 +45,7 @@ public class MenuAdministrator
         else if (option.equals("input jam kerja") || option.equals("2"))
         {
             // input jam kerja admin
+            inputJamKerja();
             interfaceMenu();
         }
         else if (option.equals("tampilkan gaji karyawan") || option.equals("3"))
@@ -62,6 +63,7 @@ public class MenuAdministrator
         else if (option.equals("ubah jam kerja") || option.equals("5"))
         {
             // ubah jam kerja admin
+            ubahJamKerja();
             interfaceMenu();
         }
         else if (option.equals("tampilkan identitas") || option.equals("6"))
@@ -73,6 +75,7 @@ public class MenuAdministrator
         else if (option.equals("tampilkan jam kerja") || option.equals("7"))
         {
             // tampilkan jam kerja admin
+            tampilkanJamKerja();
             interfaceMenu();
         }
         else if (option.equals("tampilkan data karyawan") || option.equals("8"))
